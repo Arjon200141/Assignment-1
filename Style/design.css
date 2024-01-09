@@ -1,18 +1,55 @@
 header {
-    background-color: #FFF8F3;
-    background-image: url('../New Folder/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../New Folder/Banner\ Image.png');
+    margin: 0;
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
-    border-radius: 16px;
+    margin: 60px 150px 30px 150px;
 }
-.banner-title{
-    color: #FFF;
+
+.banner-title {
+    color: #FFFFFF;
     text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 400;
+    margin-bottom: 0%;
+}
+
+.large-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 78px;
+    font-weight: 900;
+    padding: 72px 95px;
+    margin-top: 0%;
+}
+
+.off {
+    color: #F00;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.catagory {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
