@@ -271,7 +271,7 @@
     margin-left: 550px;
 }
 
-.grid-images{
+.grid-images {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 430px);
@@ -335,5 +335,66 @@
     background: #F00;
     font-size: larger;
     font-weight: 800px;
-    
+
+}
+
+.address {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFF;
+    width: 375px;
+    height: 80px;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.foot {
+    background-color: #070211;
+    width: 1340px;
+    height: 550px;
+    flex-shrink: 0;
+    margin-left: 550px;
+}
+
+.call {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 850px;
+}
+
+a {
+    color: white;
+    font-size: larger;
+}
+
+.website {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 850px;
+}
+
+.footer-line {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 80px;
+    padding-top: 210px;
+}
+
+.footer-last-line {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 950px;
+    margin-top: -50px;
+}
+
+.facebook {
+    width: 22.003px;
+    height: 42.413px;
+    margin-left: 800px;
 }
